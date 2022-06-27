@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Server.js"
+  },
+  "author": "Arivu",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "mongodb": "^4.7.0",
+    "randombytes": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

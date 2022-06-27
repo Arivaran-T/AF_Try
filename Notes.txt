@@ -1,0 +1,4 @@
+////////////////////////////////
+import koa from "koa"; ---> packaje.json we should add "type: "module"
+const koa = require("koa");
+////////////////////////////////
